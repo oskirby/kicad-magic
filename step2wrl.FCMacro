@@ -1,0 +1,24 @@
+"""
+Take a STEP or STP input file,
+Scale it by 1/2.54
+Export a .wrl file (with colors!)
+"""
+
+import sys
+import stepup
+
+step = stepup.getStepFile().lower()
+
+stepup.say("Importing:",step)
+
+if not step.endswith("step") and not step.endswith("stp"):
+    stepup.sayerr("STEP file must be supplied")
+    
+wrl = stepup.getWRLFile()
+stepup.say("Exporting:",wrl)
+
+#convert to the silly KiCAD inches format
+stepup.scale(stepup.getAllObjects(),1.0/2.54)
+
+stepup.exportVRMLMeshes(stepup.getAllMeshes(),wrl)
+exit()
