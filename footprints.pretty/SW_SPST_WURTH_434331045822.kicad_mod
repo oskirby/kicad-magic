@@ -1,4 +1,4 @@
-(module SW_SPST_WURTH_434331045822 (layer F.Cu) (tedit 5C512020)
+(module SW_SPST_WURTH_434331045822 (layer F.Cu) (tedit 5ED53CEF)
   (descr "Light Touch Switch,https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE20.pdf")
   (attr smd)
   (fp_text reference REF** (at 0 -2.75) (layer F.SilkS)

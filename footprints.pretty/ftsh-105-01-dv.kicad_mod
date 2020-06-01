@@ -1,4 +1,5 @@
-(module ftsh-105-01-dv (layer F.Cu) (tedit 5C5115AA)
+(module ftsh-105-01-dv (layer F.Cu) (tedit 5ED53D0A)
+  (attr smd)
   (fp_text reference REF** (at 0 4.25) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

@@ -1,4 +1,5 @@
-(module Crystal_4SMD_7x1.5mm (layer F.Cu) (tedit 5CF42275)
+(module Crystal_4SMD_7x1.5mm (layer F.Cu) (tedit 5ED53D1D)
+  (attr smd)
   (fp_text reference REF** (at 0 2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
